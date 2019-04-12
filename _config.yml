@@ -1,4 +1,4 @@
-url: https://y7kim.github.io
+url: https://medemalabs.github.io
 baseurl: /agency-jekyll-theme/
 
 # Site settings
@@ -63,3 +63,4 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
