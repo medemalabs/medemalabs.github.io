@@ -1,7 +1,7 @@
 # Site settings
-title: My Portfolio
-email: kim.rick@gmail.com
-description: "Rick Kim's Portfolio"
+title: Medema Labs
+email: webmaster@medemalabs.com
+description: "Medema Labs: Mechanical Design and Manufacturing Software Solutions"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -23,6 +23,33 @@ address:
   - line: Waterloo St.
   - line: Kitchener, ON N2H3V5
 
+# Team names, titles and social links
+people:
+- name: Matt Campbell
+  pic: campbell
+  position: CEO, Found
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Brandon Massoni
+  pic: massoni
+  position: Cheift Technical Officer, Founder
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+  
+  
 # Build settings
 markdown: kramdown
 permalink: pretty
+
