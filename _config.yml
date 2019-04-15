@@ -12,16 +12,16 @@ color:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: linkedin
-    url: https://www.linkedin.com/pub/rick-kim/30/aa7/a70
+    url: https://www.linkedin.com/pub/medemalabs
   - title: github
-    url: http://github.com/y7kim
+    url: http://github.com/medemalabs
   - title: envelope
-    url: mailto:kim.rick@gmail.com
+    url: mailto:matt@medemalabs.com
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Waterloo St.
-  - line: Kitchener, ON N2H3V5
+  - line: P.O.Box
+  - line: Corvallis, OR 97330, USA
 
 # Team names, titles and social links
 people:
@@ -37,7 +37,7 @@ people:
       url: #
 
 - name: Brandon Massoni
-  pic: massoni
+  pic: massoni.png
   position: Cheift Technical Officer, Founder
   social:
     - title: twitter
