@@ -27,24 +27,24 @@ address:
 people:
 - name: Matt Campbell
   pic: campbell
-  position: CEO, Found
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Brandon Massoni
-  pic: massoni.png
-  position: Cheift Technical Officer, Founder
+  position: CEO, Founder
   social:
     - title: twitter
       url: #
     - title: facebook
       url: #
     - title: linkedin
+      url: #
+
+- name: Brandon Massoni
+  pic: massoni.jpg
+  position: Cheift Technical Officer, Founder
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
       url: #
 
   
