@@ -1,4 +1,4 @@
-My Portfolio
+My products
 =========================
 
 Powered by Jekyll
