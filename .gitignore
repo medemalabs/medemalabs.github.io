@@ -1,6 +1,3 @@
 _site
 Thumbs.db
-/.vs/MedemaLabsWebsite/v16/Server/sqlite3/storage.ide-wal
-/.vs/MedemaLabsWebsite/v16/Server/sqlite3/storage.ide-shm
-/.vs/MedemaLabsWebsite/v16/Server/sqlite3/storage.ide
-/.vs/MedemaLabsWebsite/v16/Server/sqlite3/db.lock
+.vs

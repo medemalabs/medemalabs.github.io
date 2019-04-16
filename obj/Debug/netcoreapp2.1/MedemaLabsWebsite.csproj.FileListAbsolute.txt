@@ -1,6 +1,0 @@
-C:\Users\campmatt\source\repos\medemalabs\obj\Debug\netcoreapp2.1\MedemaLabsWebsite.csprojAssemblyReference.cache
-C:\Users\campmatt\source\repos\medemalabs\obj\Debug\netcoreapp2.1\MedemaLabsWebsite.csproj.CoreCompileInputs.cache
-C:\Users\campmatt\source\repos\medemalabs\obj\Debug\netcoreapp2.1\MedemaLabsWebsite.RazorAssemblyInfo.cache
-C:\Users\campmatt\source\repos\medemalabs\obj\Debug\netcoreapp2.1\MedemaLabsWebsite.RazorAssemblyInfo.cs
-C:\Users\campmatt\source\repos\medemalabs\obj\Debug\netcoreapp2.1\MedemaLabsWebsite.AssemblyInfoInputs.cache
-C:\Users\campmatt\source\repos\medemalabs\obj\Debug\netcoreapp2.1\MedemaLabsWebsite.AssemblyInfo.cs
