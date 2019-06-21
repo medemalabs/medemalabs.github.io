@@ -29,10 +29,12 @@ var cbpAnimatedHeader = (function() {
 		if ( sy >= changeHeaderOn ) {
 			classie.add( header, 'navbar-shrink' );
       $('#brand_img').css({width: "33%"});
+      $('.navbar-brand').css({padding: "0px 0px"});
 		}
 		else {
 			classie.remove( header, 'navbar-shrink' );
       $('#brand_img').css({width: "100%"})
+      $('.navbar-brand').css({padding: "15px 15px"});
 		}
 		didScroll = false;
 	}
