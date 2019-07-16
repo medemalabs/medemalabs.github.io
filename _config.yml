@@ -6,7 +6,7 @@ description: "Medema Labs: Mechanical Design and Manufacturing Software Solution
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: fed136
-  secondary: fec503 
+  secondary: fec503
   secondary-dark: 000
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
@@ -38,7 +38,7 @@ people:
 
 - name: Brandon Massoni
   pic: massoni
-  position: Cheift Technical Officer, Founder
+  position: Cheif Technical Officer, Founder
   social:
     - title: twitter
       url: #
@@ -47,9 +47,8 @@ people:
     - title: stack-overflow
       url: #
 
-  
-  
+
+
 # Build settings
 markdown: kramdown
 permalink: pretty
-

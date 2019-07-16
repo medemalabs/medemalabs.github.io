@@ -33,7 +33,7 @@ var cbpAnimatedHeader = (function() {
 		}
 		else {
 			classie.remove( header, 'navbar-shrink' );
-      $('#brand_img').css({width: "100%"})
+      $('#brand_img').css({width: "80%"})
       $('.navbar-brand').css({padding: "15px 15px"});
 		}
 		didScroll = false;

@@ -1,15 +1,13 @@
 ---
-title: Treehouse
-subtitle: Website Design
+title: Part Divider
+subtitle: optimizes ways to divide a single part into multiple for reducing time and cost of high-value parts
 layout: default
 modal-id: 4
 date: 2014-07-15
 img: treehouse.png
 thumbnail: treehouse-thumbnail.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: The result of state and local industry funding, which produced 6 peer-reviewed publications and proved to be better than human experts, has produced a complex search process which takes into account machining, inspection, fixturing times, etc. to create solutions to engineering problems that were overlooked in design.
+
 
 ---

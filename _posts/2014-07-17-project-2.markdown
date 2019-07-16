@@ -1,15 +1,12 @@
 ---
-title: Escape
+title: Closed Die Forging Estimate
 subtitle: Website Design
 layout: default
 modal-id: 2
 date: 2014-07-17
-img: escape.png
-thumbnail: escape-thumbnail.png
+img: forging.png
+thumbnail: forgingThumb.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: Estimating forging volumes are time-consuming and require years of expertise in forging processes to make accurate predictions. This module quickly finds an orientation, parting line, estimated time and cost (including post-machining) so that an engineering designer can get quick feedback on the design.
 
 ---
