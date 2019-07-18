@@ -29,23 +29,25 @@ people:
   pic: campbell
   position: CEO, Founder
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
+#    - title: twitter
+    #   url: #
+    # - title: facebook
+    #   url: #
     - title: linkedin
-      url: #
+      url: https://www.linkedin.com/in/matt-campbell-a441ab3/
 
 - name: Brandon Massoni
   pic: massoni
   position: Cheif Technical Officer, Founder
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+    - title: linkedin
+      url: https://www.linkedin.com/in/brandon-massoni/
+    # - title: twitter
+    #   url: #
+    # - title: facebook
+    #   url: #
+    # - title: stack-overflow
+    #   url: #
 
 
 
