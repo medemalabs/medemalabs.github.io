@@ -1,12 +1,14 @@
 ---
 title: Single Part Manufacturing
-subtitle: determines the best stock material for a given part.
+subtitle: determines the best stock type for a given part
 layout: default
 modal-id: 6
 date: 2014-07-15
 img: roundicons.png
 thumbnail: roundicons-thumbnail.png
 alt: image-alt
-description: Working only with a 3D representation of a part, this module quickly determines a stock material size for the part as well as a base-line prediction of the total time and cost to create the part.
+description: Working only with a 3D representation of a part, this module quickly determines the best stock material type/size for the part, as well as, a base-line prediction of the total time and cost to create the part. 
+
+The stock types considered include: plate (with discrete sizes), rectangular and circular bar, closed-die forgings, and wire or powder for additive manufacturing. The processes considered include: CNC machining, waterjet, and directed energy deposition (DED).
 
 ---
