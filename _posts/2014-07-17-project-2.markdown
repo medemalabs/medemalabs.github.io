@@ -1,6 +1,6 @@
 ---
-title: Closed Die Forging Estimate
-subtitle: Estimate forging volume in seconds to improve cost predictions
+title: Closed Die Forging
+subtitle: estimate forging volume in seconds to improve cost predictions
 layout: default
 modal-id: 2
 date: 2014-07-17
