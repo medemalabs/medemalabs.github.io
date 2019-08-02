@@ -1,6 +1,6 @@
 ---
-title: Closed Die Forging Estimate
-subtitle: Website Design
+title: Closed Die Forging 
+subtitle: Estimate forging volume in seconds to improve cost predictions
 layout: default
 modal-id: 2
 date: 2014-07-17
