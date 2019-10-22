@@ -1,8 +1,6 @@
 ---
 title: Parts Consolidator
 subtitle: leverages additive manufacturing to determine what combination of parts can best be created as a single part
-layout: default
-modal-id: 5
 date: 2014-07-14
 img: startup-framework.png
 thumbnail: startup-framework-thumbnail.png
