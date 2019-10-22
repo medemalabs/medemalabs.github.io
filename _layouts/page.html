@@ -7,7 +7,18 @@
 <body id="page-top" class="index">
 
     {% include header.html %}
-
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <div>
+                    <h2>{{ page.title }}</h2>
+                    <hr class="star-primary">
+                    <img src="/img/products/img/{{ page.img }}" class="img-responsive img-centered" alt="{{ page.alt }}">
+                    <p>{{ content }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     {% include contact.html %}
     {% include footer.html %}
