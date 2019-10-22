@@ -9,7 +9,7 @@
         <div class="row">
           {% for post in site.posts %}
               <div class="col-md-4 col-sm-6 products-item">
-                  <a href="#productsModal{{ post.modal-id }}" class="products-link" data-toggle="modal">
+                  <a href="{{ post.url }}" class="products-link">
                       <div class="products-hover">
                           <div class="products-hover-content">
                               <i class="fa fa-plus fa-3x"></i>
