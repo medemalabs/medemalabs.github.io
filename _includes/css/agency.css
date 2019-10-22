@@ -424,6 +424,10 @@ section h3.section-subheading {
     font-style: italic;
 }
 
+#products img {
+  height: 200px;
+}
+
 #products * {
     z-index: 2;
 }
