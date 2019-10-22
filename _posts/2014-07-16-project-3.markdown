@@ -2,7 +2,7 @@
 title: Assembly Planner
 subtitle: plans the best way to assemble a collection of CAD parts
 layout: page
-url: assemblyplanner
+link: assemblyplanner
 img: aap.png
 thumbnail: aap.png
 alt: assembly planner image
