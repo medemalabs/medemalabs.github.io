@@ -13,9 +13,5 @@ By searching over numerous machining directions, this simulation identifies a pa
 mass, which is found by subtractively removing material from the stock shapes. This is
 particularly useful when starting with topology optimized parts that are defined with
 little regard for subtractive manufacturing.
-<show machsimp1.png>
 
-Combined with Part Divider, the process provides further intuition into how a small change in a part can greatly reduce part cost. Consider the following part
-<show machsimp2.png>
-where the division into the green and gold parts indicates that a simplification (i.e.
-removal of bosses) can lead to a suitable and low-cost solution.
+Combined with Part Divider, the process provides further intuition into how a small change in a part can greatly reduce part cost. Consider the following part where the division into the green and gold parts indicates that a simplification (i.e.removal of bosses) can lead to a suitable and low-cost solution.
