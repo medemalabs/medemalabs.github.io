@@ -1,7 +1,7 @@
 ---
 title: Parts Simplifier
 subtitle: a tradeoff time and cost for added mass
-layout: page
+layout: test
 url: partsimplifier
 img: machsimp3Thumb.png
 thumbnail: machsimp3Thumb.png

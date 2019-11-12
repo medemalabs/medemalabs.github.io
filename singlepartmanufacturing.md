@@ -1,7 +1,7 @@
 ---
 title: Single Part Manufacturing
 subtitle: determine the best stock for a given part
-layout: page
+layout: test
 url: singlepartmanufacturing
 img: SinglePartManufacturing.png
 thumbnail: SinglePartManufacturing.png

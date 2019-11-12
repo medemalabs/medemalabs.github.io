@@ -1,7 +1,7 @@
 ---
 title: Parts Consolidator
 subtitle: leverages additive manufacturing to determine what combination of parts can best be created as a single part
-layout: page
+layout: test
 url: partconsolidator
 img: bikeframe.png
 thumbnail:  bikeframe.png
