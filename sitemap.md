@@ -6,6 +6,7 @@ layout: basic
 
 * [Home Page](https://medemalabs.com)
 * [About Page](https://medemalabs.com/about/)
+* [Beta Program](https://medemalabs.com/beta/)
 * [Assembly Planner](https://medemalabs.com/simulations/assemblyplanner/)
 * [Closed Die Forging](https://medemalabs.com/simulations/closeddieforging/)
 * [Parts Consolidator](https://medemalabs.com/simulations/partconsolidator/)
