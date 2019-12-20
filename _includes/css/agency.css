@@ -662,6 +662,13 @@ aside.clients img {
     margin: 50px auto;
 }
 
+section#betaContact {
+    background-color: #222;
+    background-image: url(../img/stock/lathegold.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 section#contact {
     background-color: #222;
     background-image: url(../img/stock/isis-franca-641217-unsplash_crop700.jpg);
