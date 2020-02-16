@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+	Uri="https://medemalabs.com/PartAnalyzerPackaging.appinstaller"
+	Version="0.20.47.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	<MainBundle
+		Name="MedemaLabs.PartAnalyzer"
+		Version="0.20.47.0"
+		Publisher="CN=8C298E84-E4DC-4395-BA46-BD7D8430D338"
+		Uri="https://1drv.ms/u/s!AmPOWxfnICwhilTjI1cC9U3Mb9Ir?e=oIGC3x" />
+	<UpdateSettings>
+		<OnLaunch
+			HoursBetweenUpdateChecks="0" />
+	</UpdateSettings>
+</AppInstaller>
