@@ -6,7 +6,7 @@
 		Name="MedemaLabs.PartAnalyzer"
 		Version="0.20.47.0"
 		Publisher="CN=8C298E84-E4DC-4395-BA46-BD7D8430D338"
-		Uri="https://drive.google.com/uc?export=download&confirm=jnnD&id=1c-OXwWunJnrp6BGC1vqtk9j6BVgHkNCL" />
+		Uri="https://drive.google.com/uc?export=download&amp;confirm=jnnD&amp;id=1c-OXwWunJnrp6BGC1vqtk9j6BVgHkNCL" />
 	<UpdateSettings>
 		<OnLaunch
 			HoursBetweenUpdateChecks="0" />
