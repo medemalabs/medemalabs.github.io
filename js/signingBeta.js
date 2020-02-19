@@ -20,7 +20,7 @@ $(function() {
                 dataType: "jsonp",
                 data: {
                     name: name,
-                    phone: phone
+                    email: email
                 },
                 cache: false,
                 success: function() {
