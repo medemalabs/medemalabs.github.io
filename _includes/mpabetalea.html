@@ -766,12 +766,23 @@ LABS CORP.</b></p>
             <form name="sentMessage" id="contactForm" novalidate>
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" id="acceptanceChecked"  
+                                   required data-validation-required-message="Please check the box to indicate your acceptance of this license.">
+                                I accept the terms of this agreement.
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-md-offset-3">
                         <div class="control-group form-group">
-                            <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                            <input type="text" class="form-control" placeholder="Your Name *" id="name" 
+                                   required data-validation-required-message="Please enter your name.">
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="control-group form-group">
-                            <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                            <input type="email" class="form-control" placeholder="Your Email *" id="email"
+                                   required data-validation-required-message="Please enter your email address.">
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
@@ -781,6 +792,7 @@ LABS CORP.</b></p>
                     </div>
                 </div>
             </form>
+
         </div>
     </div>
 

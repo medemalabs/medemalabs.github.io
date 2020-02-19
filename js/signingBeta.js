@@ -10,6 +10,7 @@ $(function() {
             // get values from FORM
             var name = $("input#name").val();
             var email = $("input#email").val();
+            var acceptanceChecked = $("input#acceptanceChecked").val();
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
             if (firstName.indexOf(' ') >= 0) {
@@ -20,7 +21,8 @@ $(function() {
                 dataType: "jsonp",
                 data: {
                     name: name,
-                    email: email
+                    email: email,
+                    acceptanceChecked: acceptanceChecked
                 },
                 cache: false,
                 success: function() {
