@@ -6,23 +6,23 @@
     <style>
         <!--
         /* Font Definitions */
-        
+
         @font-face {
             font-family: "MS Mincho";
             panose-1: 2 2 6 9 4 2 5 8 3 4;
         }
-        
+
         @font-face {
             font-family: "Cambria Math";
             panose-1: 2 4 5 3 5 4 6 3 2 4;
         }
-        
+
         @font-face {
             font-family: "\@MS Mincho";
             panose-1: 2 2 6 9 4 2 5 8 3 4;
         }
         /* Style Definitions */
-        
+
         p.MsoNormal,
         li.MsoNormal,
         div.MsoNormal {
@@ -31,7 +31,7 @@
             font-size: 11.0pt;
             font-family: "Arial", sans-serif;
         }
-        
+
         h1 {
             margin-top: .05pt;
             margin-right: 0in;
@@ -42,7 +42,7 @@
             font-size: 10.0pt;
             font-family: "Arial", sans-serif;
         }
-        
+
         p.MsoBodyText,
         li.MsoBodyText,
         div.MsoBodyText {
@@ -53,7 +53,7 @@
             font-size: 10.0pt;
             font-family: "Arial", sans-serif;
         }
-        
+
         p.MsoListParagraph,
         li.MsoListParagraph,
         div.MsoListParagraph {
@@ -68,30 +68,30 @@
             font-size: 11.0pt;
             font-family: "Arial", sans-serif;
         }
-        
+
         .MsoChpDefault {
             font-family: "Calibri", sans-serif;
         }
         /* Page Definitions */
-        
+
         @page WordSection1 {
             size: 8.5in 11.0in;
             margin: 51.0pt 66.0pt 14.0pt 67.0pt;
         }
-        
+
         div.WordSection1 {
             page: WordSection1;
         }
         /* List Definitions */
-        
+
         ol {
             margin-bottom: 0in;
         }
-        
+
         ul {
             margin-bottom: 0in;
         }
-        
+
         -->
     </style>
 
@@ -766,17 +766,8 @@ LABS CORP.</b></p>
             <form name="sentMessage" id="contactForm" novalidate>
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3">
-                        <div class="checkbox">
-                            <label>
-                                <input type="checkbox" id="acceptanceChecked"  
-                                   required data-validation-required-message="Please check the box to indicate your acceptance of this license.">
-                                I accept the terms of this agreement.
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-md-offset-3">
                         <div class="control-group form-group">
-                            <input type="text" class="form-control" placeholder="Your Name *" id="name" 
+                            <input type="text" class="form-control" placeholder="Your Name *" id="name"
                                    required data-validation-required-message="Please enter your name.">
                             <p class="help-block text-danger"></p>
                         </div>
@@ -784,6 +775,16 @@ LABS CORP.</b></p>
                             <input type="email" class="form-control" placeholder="Your Email *" id="email"
                                    required data-validation-required-message="Please enter your email address.">
                             <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group form-group">
+                          <div class="checkbox">
+                              <label>
+                                  <input type="checkbox" id="acceptanceChecked"
+                                     required data-validation-required-message="Please check the box to indicate your acceptance of this license.">
+                                  I accept the terms of this agreement.
+                              </label>
+                          </div>
+                          <p class="help-block text-danger"></p>
                         </div>
                     </div>
                     <div class="col-lg-12 text-center">
