@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\js",
+    "\\simulations",
+    "\\_includes",
+    "\\_layouts"
   ],
+  "SelectedNode": "\\_layouts\\beta.html",
   "PreviewInSolutionExplorer": false
 }
