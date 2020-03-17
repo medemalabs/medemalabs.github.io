@@ -8,19 +8,13 @@ $(function() {
         submitSuccess: function($form, event) {
             event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
-            var firstname = $("input#firstname").val();
-            var lastname = $("input#lastname").val();
             var email = $("input#email").val();
-            var orgname = $("input#orgname").val();
 
             $.ajax({
-                url: "https://getsimpleform.com/messages/ajax?form_api_token=04763efd3787fcdf476d50857a94c69f",
+                url: "https://getsimpleform.com/messages/ajax?form_api_token=fccc54bf9f59316f239373cb6e564b38",
                 dataType: "jsonp",
                 data: {
-                    firstname: firstname,
-                    lastname: lastname,
-                    email: email,
-                    orgname: orgname
+                    email: email
                 },
                 cache: false,
                 success: function() {

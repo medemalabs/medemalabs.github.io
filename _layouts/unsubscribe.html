@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body id="page-top" class="index">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-xs-offset-3">
+                <img src="/img/logos/simpleLogoBig.png" class="img-responsive img-centered" alt="Medema Labs logo: Mechanical Design and Manufacturing Software Solutions">
+                <p>
+
+                </p>
+                <p>
+
+                </p>
+                <p>
+
+                    Please enter your email below to be removed from future mailings by Medema Labs.
+                </p>
+                <form name="sentMessage" id="contactForm" novalidate>
+                    <div class="row">
+
+                        <div class="control-group form-group">
+                            <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <p>
+
+                        </p>
+                        <p>
+
+                        </p>
+                        <p>
+
+                            If you have any additional comments for us before you go, please feel free to indicate them in the box below.
+                        </p>
+                        <div class="control-group form-group">
+                            <textarea class="form-control" placeholder="Your Message *" id="message"></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="col-lg-12 text-center">
+                            <div id="success"></div>
+                            <button type="submit" class="btn btn-xl">Submit</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+
+
+        {% include footer.html %} {% include jsUnsubscribe.html %}
+
+</body>
+
+</html>
