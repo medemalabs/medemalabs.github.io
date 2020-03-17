@@ -1,42 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 
-{% include head.html %}
+  {% include head.html %}
+
 
 <body id="page-top" class="index">
 
     {% include header.html %}
-
-
+    <section id="basic content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                  <h3 class="section-heading">Webinar: Introduction to Medema Part Analyzer</h3>
+                  <h3 class="section-subheading text-muted">
+                    Watch our live demo on our recent desktop tool that predicts manufacturing processes
+                  </h3>
+                <div class="text-muted">
+                  {{ content }}
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+    <section id="webinarReg">
     <div class="container">
         <div class="row">
-         
-            <div class="row">
-                <div class="col-lg-12">
-                      <h2 class="section-heading">Webinar: Part Analyzer Demonstration</h2>
-                      <h3 class="section-subheading text-muted">
-                          A common challenge in designing new products is finding the best way to manufacture. Medema Labs is here to help. We meld manufacturing know-how and computational advances into desktop applications situated between CAD and CAM. Our tools will tell you:
-                      </h3>
-                  </div>
-                </div>
-                <div class="row">
-                    
-                  <div class="col-lg-12">
-                    <ul class="text-muted">
-                      <li>The best way to make a single part  </li>
-                      <li>Whether a single part should be divided into multiple  </li>
-                      <li>Whether parts should be combined  </li>
-                      <li>How to best assemble parts into your product  </li>
-                      <li>Whether additive should be pursued over subtractive  </li>
+            <div class="col-lg-12 text-center">
+                <h3 class="section-heading">Register for  Webinar</h2>
+                <h3 class="section-subheading text-muted">Fill in your details below, and we will send you an invite to be used at either session:</h3>
+            </div>
+                <div class="col-md-6 col-md-offset-3">
+                    <ul>
+                       <li>March 26th, 2020, 9:00am PT | 12:00pm (noon) ET</li>
+                       <li>March 26th, 2020, 11:00am PT | 2:00pm (noon) ET</li>
+                       <p/>
                     </ul>
-                    <h3 class="section-subheading text-muted">
-                      Join our beta-testers and try out Medema Part Analyzer for your industry.
-                    </h3>
-                  </div>
-                </div>
-            </div>    
-
+                  </div> 
+            </div>
         </div>
+        <div class="row">
         <div class="col-md-3 col-md-offset-2 text-center">
             <form name="sentMessage" id="contactForm" novalidate>
                 <div class="row">
@@ -77,7 +79,7 @@
     </div>
     <p />
     <p />
-
+</section>
 
 
     {% include footer.html %}
