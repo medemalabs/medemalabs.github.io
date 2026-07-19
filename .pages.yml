@@ -17,8 +17,15 @@ content:
           - { name: subheading, label: Subheadline, type: text }
           - { name: cta_label, label: Button text, type: string }
           - { name: cta_url, label: Button link, type: string }
-          - { name: image, label: Hero image, type: image }
-          - { name: image_alt, label: Hero image alt text, type: string }
+          - { name: slide_seconds, label: Seconds per slide, type: number }
+          - name: slides
+            label: Story slides (auto-rotating)
+            type: object
+            list: true
+            fields:
+              - { name: image, label: Image, type: image }
+              - { name: title, label: Title, type: string }
+              - { name: text, label: Caption text, type: text }
       - name: capabilities
         label: What We Do section
         type: object
