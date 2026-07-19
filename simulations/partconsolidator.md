@@ -1,10 +1,10 @@
 ---
 title: Parts Consolidator
 subtitle: leverages additive manufacturing to determine what combination of parts can best be created as a single part
-layout: page
+layout: product
 url: partconsolidator
-img: bikeframe.png
-thumbnail:  bikeframe.png
+img: /img/products/bikeframe.png
+thumbnail: /img/products/bikeframe.png
 alt: parts consolidator image
 description: Acting in the opposite direction of Part Divider, this approach performs a search over parts in an assembly that are rigidly attached to identify which ones can be combined to reduce time and cost.
 

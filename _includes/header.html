@@ -1,60 +1,15 @@
-<!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                  <img id="brand_img" alt="logo for medema labs" longdesc="this is the logo for medema labs" src="/img/logos/weblogoOnBlue.png" width="100%">
-                </a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="/index.html">Home</a>
-                    </li>
-                    <!-- <li>
-                        <a class="page-scroll" href="#simulations">Simulations</a>
-                    </li> -->
-                    <li>
-                            <a class="page-scroll" href="/about/">About</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="/beta/">Beta</a>
-                        </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">Mechanical Design and Manufacturing
-					Software Solutions</div>
-                <!--<div class="intro-heading">It's Nice To Meet You</div>-->
-                <!-- <a href="#products" class="page-scroll btn btn-xl">Jump to the Products</a> -->
-            </div>
-        </div>
-    </header>
-<!--
-        {% for page in site.pages %}
-          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
-        {% endfor %}
- -->
+<nav class="site-nav">
+    <div class="container">
+        <a class="nav-brand" href="/">
+            <img src="/img/logos/simpleLogoBig.png" alt="{{ site.title }} logo">
+            <span>{{ site.title }}</span>
+        </a>
+        <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.getElementById('nav-links').classList.toggle('open')">&#9776;</button>
+        <ul class="nav-links" id="nav-links">
+            {% for item in site.nav %}
+            <li><a href="{{ item.url }}">{{ item.label }}</a></li>
+            {% endfor %}
+            <li><a class="btn btn-primary" href="{{ site.cta.url }}">{{ site.cta.label }}</a></li>
+        </ul>
+    </div>
+</nav>

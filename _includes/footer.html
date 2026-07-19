@@ -1,26 +1,43 @@
-  <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        {% for network in site.social %}
-                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <!-- <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Terms of Use</a>
-                        </li> -->
-                        <li><a href="/sitemap/">Site map</a></li>
-                    </ul>
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <img src="/img/logos/simpleLogoBig.png" alt="{{ site.title }} logo">
+                <p>{{ site.description }}</p>
+                <div class="social-row">
+                    {% for network in site.social %}
+                    <a href="{{ network.url }}" aria-label="{{ network.title }}">
+                        {% if network.title == 'linkedin' %}
+                        <svg viewBox="0 0 24 24"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V24h-4V8zm7.5 0h3.8v2.2h.05c.53-1 1.83-2.2 3.77-2.2 4.03 0 4.78 2.65 4.78 6.1V24h-4v-8.5c0-2-.04-4.6-2.8-4.6-2.8 0-3.23 2.2-3.23 4.45V24H8V8z"/></svg>
+                        {% elsif network.title == 'github' %}
+                        <svg viewBox="0 0 24 24"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17 4.7 18 5 18 5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3"/></svg>
+                        {% else %}
+                        <svg viewBox="0 0 24 24"><path d="M0 4a2 2 0 0 1 2-2h20a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm12 8.7L2.4 5.3v13.4h19.2V5.3L12 12.7zM3.9 4.5l8.1 6.2 8.1-6.2H3.9z"/></svg>
+                        {% endif %}
+                    </a>
+                    {% endfor %}
                 </div>
             </div>
+            <div>
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="/about/">About</a></li>
+                    <li><a href="/#products">Products</a></li>
+                    <li><a href="{{ site.cta.url }}">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="/help/">Help &amp; Docs</a></li>
+                    <li><a href="/privacypolicy/">Privacy Policy</a></li>
+                    <li><a href="/sitemap/">Site Map</a></li>
+                </ul>
+            </div>
         </div>
-    </footer>
+        <div class="footer-bottom">
+            <span>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</span>
+            <span>{% for line in site.address %}{{ line.line }}{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
+        </div>
+    </div>
+</footer>

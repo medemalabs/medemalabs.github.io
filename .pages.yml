@@ -1,0 +1,174 @@
+media:
+  input: img
+  output: /img
+
+content:
+  - name: homepage
+    label: Homepage
+    type: file
+    path: index.html
+    fields:
+      - name: hero
+        label: Hero (top banner)
+        type: object
+        fields:
+          - { name: eyebrow, label: Small label above headline, type: string }
+          - { name: heading, label: Headline, type: string }
+          - { name: subheading, label: Subheadline, type: text }
+          - { name: cta_label, label: Button text, type: string }
+          - { name: cta_url, label: Button link, type: string }
+          - { name: image, label: Hero image, type: image }
+          - { name: image_alt, label: Hero image alt text, type: string }
+      - name: capabilities
+        label: What We Do section
+        type: object
+        fields:
+          - { name: eyebrow, label: Small label, type: string }
+          - { name: heading, label: Heading, type: string }
+          - { name: intro, label: Intro text, type: text }
+          - name: items
+            label: Capability cards
+            type: object
+            list: true
+            fields:
+              - { name: title, label: Title, type: string }
+              - { name: description, label: Description, type: text }
+      - name: products_section
+        label: Products section header
+        type: object
+        fields:
+          - { name: eyebrow, label: Small label, type: string }
+          - { name: heading, label: Heading, type: string }
+          - { name: intro, label: Intro text, type: text }
+      - name: how_it_works
+        label: How It Works section
+        type: object
+        fields:
+          - { name: eyebrow, label: Small label, type: string }
+          - { name: heading, label: Heading, type: string }
+          - { name: intro, label: Intro text, type: text }
+          - name: steps
+            label: Steps
+            type: object
+            list: true
+            fields:
+              - { name: title, label: Step title, type: string }
+              - { name: description, label: Step description, type: text }
+          - { name: image, label: Output image, type: image }
+          - { name: image_alt, label: Image alt text, type: string }
+          - { name: image_caption, label: Image caption, type: string }
+          - name: outputs
+            label: Output bullet points
+            type: string
+            list: true
+      - name: contact
+        label: Contact section
+        type: object
+        fields:
+          - { name: heading, label: Heading, type: string }
+          - { name: text, label: Text, type: text }
+          - { name: button_label, label: Button text, type: string }
+          - { name: email, label: Contact email, type: string }
+      - { name: layout, label: Layout (do not change), type: string, hidden: true }
+      - { name: title, label: Page title, type: string, hidden: true }
+
+  - name: products
+    label: Products (Simulation Modules)
+    type: collection
+    path: simulations
+    view:
+      fields: [title, subtitle]
+    fields:
+      - { name: title, label: Title, type: string }
+      - { name: subtitle, label: Short tagline (shown on cards), type: string }
+      - { name: description, label: SEO description, type: text }
+      - { name: thumbnail, label: Thumbnail (homepage card), type: image }
+      - { name: img, label: Main image (detail page), type: image }
+      - { name: alt, label: Image alt text, type: string }
+      - { name: body, label: Page content, type: rich-text }
+      - { name: layout, label: Layout (do not change), type: string, hidden: true, default: product }
+      - { name: url, label: URL slug, type: string, hidden: true }
+
+  - name: about
+    label: About page
+    type: file
+    path: about.md
+    fields:
+      - { name: title, label: Title, type: string }
+      - { name: subtitle, label: Subtitle, type: string }
+      - { name: show_team, label: Show team section, type: boolean }
+      - { name: body, label: Page content, type: rich-text }
+      - { name: layout, label: Layout (do not change), type: string, hidden: true }
+
+  - name: help
+    label: Help page
+    type: file
+    path: help.md
+    fields:
+      - { name: title, label: Title, type: string }
+      - { name: body, label: Page content, type: rich-text }
+      - { name: layout, label: Layout (do not change), type: string, hidden: true }
+
+  - name: privacy
+    label: Privacy Policy
+    type: file
+    path: privacypolicy.md
+    fields:
+      - { name: title, label: Title, type: string }
+      - { name: body, label: Page content, type: rich-text }
+      - { name: layout, label: Layout (do not change), type: string, hidden: true }
+
+  - name: settings
+    label: Site Settings
+    type: file
+    path: _config.yml
+    fields:
+      - { name: title, label: Site name, type: string }
+      - { name: tagline, label: Tagline, type: string }
+      - { name: email, label: Site email, type: string }
+      - { name: description, label: Site description (SEO), type: text }
+      - { name: url, label: Site URL, type: string }
+      - name: nav
+        label: Header navigation links
+        type: object
+        list: true
+        fields:
+          - { name: label, label: Label, type: string }
+          - { name: url, label: URL, type: string }
+      - name: cta
+        label: Main call-to-action button
+        type: object
+        fields:
+          - { name: label, label: Button text, type: string }
+          - { name: url, label: Button link, type: string }
+      - name: social
+        label: "Social links (icons: linkedin, github, envelope)"
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Icon, type: select, options: { values: [linkedin, github, envelope] } }
+          - { name: url, label: URL, type: string }
+      - name: address
+        label: Address lines
+        type: object
+        list: true
+        fields:
+          - { name: line, label: Line, type: string }
+      - name: people
+        label: Team members (About page)
+        type: object
+        list: true
+        fields:
+          - { name: name, label: Name, type: string }
+          - { name: pic, label: Photo filename (in img/team, without .jpg), type: string }
+          - { name: position, label: Title / position, type: string }
+          - name: social
+            label: Social links
+            type: object
+            list: true
+            fields:
+              - { name: title, label: Icon, type: string }
+              - { name: url, label: URL, type: string }
+      - { name: markdown, label: Markdown engine (advanced), type: string, hidden: true }
+      - { name: permalink, label: Permalink style (advanced), type: string, hidden: true }
+      - { name: exclude, label: Excluded files (advanced), type: string, list: true, hidden: true }

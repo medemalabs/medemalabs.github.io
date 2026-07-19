@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<section class="page-hero">
+    <div class="container">
+        <a class="back-link" href="/#products">&larr; All simulation modules</a>
+        <h1>{{ page.title }}</h1>
+        <p class="subtitle">{{ page.subtitle }}</p>
+    </div>
+</section>
+<div class="page-body">
+    <div class="container">
+        {% if page.img %}
+        <figure class="product-figure">
+            <img src="{{ page.img }}" alt="{{ page.alt }}">
+        </figure>
+        {% endif %}
+        <div class="prose">
+            {{ content }}
+        </div>
+    </div>
+</div>
+<section class="contact-band">
+    <div class="container">
+        <h2>Interested in {{ page.title }}?</h2>
+        <p>We'd love to hear about your use case and how this could fit your workflow.</p>
+        <a class="btn btn-primary" href="{{ site.cta.url }}">{{ site.cta.label }}</a>
+    </div>
+</section>

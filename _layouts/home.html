@@ -1,0 +1,108 @@
+---
+layout: default
+---
+<!-- Hero -->
+<section class="hero">
+    <div class="container">
+        <span class="eyebrow">{{ page.hero.eyebrow }}</span>
+        <h1>{{ page.hero.heading }}</h1>
+        <p class="lede">{{ page.hero.subheading }}</p>
+        <div class="hero-actions">
+            <a class="btn btn-primary" href="{{ page.hero.cta_url }}">{{ page.hero.cta_label }}</a>
+            <a class="btn btn-ghost" href="#products">Explore the products</a>
+        </div>
+        {% if page.hero.image %}
+        <div class="hero-media">
+            <img src="{{ page.hero.image }}" alt="{{ page.hero.image_alt }}">
+        </div>
+        {% endif %}
+    </div>
+</section>
+
+<!-- Capabilities -->
+<section id="capabilities">
+    <div class="container">
+        <div class="section-head center">
+            <span class="eyebrow">{{ page.capabilities.eyebrow }}</span>
+            <h2>{{ page.capabilities.heading }}</h2>
+            <p>{{ page.capabilities.intro }}</p>
+        </div>
+        <div class="grid cols-3">
+            {% for item in page.capabilities.items %}
+            <div class="card">
+                <span class="num">{{ forloop.index }}</span>
+                <h3>{{ item.title }}</h3>
+                <p>{{ item.description }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- Products -->
+<section id="products" class="alt">
+    <div class="container">
+        <div class="section-head center">
+            <span class="eyebrow">{{ page.products_section.eyebrow }}</span>
+            <h2>{{ page.products_section.heading }}</h2>
+            <p>{{ page.products_section.intro }}</p>
+        </div>
+        <div class="grid cols-3">
+            {% for p in site.pages %}
+            {% if p.layout == 'product' %}
+            <a href="{{ p.url }}" class="product-card">
+                <div class="thumb"><img src="{{ p.thumbnail }}" alt="{{ p.alt }}"></div>
+                <div class="body">
+                    <h3>{{ p.title }}</h3>
+                    <p>{{ p.subtitle }}</p>
+                    <span class="more">Learn more &rarr;</span>
+                </div>
+            </a>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- How it works -->
+<section id="how-it-works">
+    <div class="container">
+        <div class="section-head">
+            <span class="eyebrow">{{ page.how_it_works.eyebrow }}</span>
+            <h2>{{ page.how_it_works.heading }}</h2>
+            <p>{{ page.how_it_works.intro }}</p>
+        </div>
+        <div class="split">
+            <ol class="step-list">
+                {% for step in page.how_it_works.steps %}
+                <li>
+                    <h3>{{ step.title }}</h3>
+                    <p>{{ step.description }}</p>
+                </li>
+                {% endfor %}
+            </ol>
+            <div>
+                <div class="output-media">
+                    <img src="{{ page.how_it_works.image }}" alt="{{ page.how_it_works.image_alt }}">
+                </div>
+                <p class="output-caption">{{ page.how_it_works.image_caption }}</p>
+                <ul class="check-list">
+                    {% for output in page.how_it_works.outputs %}
+                    <li>{{ output }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="contact-band">
+    <div class="container">
+        <span class="eyebrow">Contact</span>
+        <h2>{{ page.contact.heading }}</h2>
+        <p>{{ page.contact.text }}</p>
+        <a class="btn btn-primary" href="mailto:{{ page.contact.email }}">{{ page.contact.button_label }}</a>
+        <div class="email-line">Or email us directly at <a href="mailto:{{ page.contact.email }}">{{ page.contact.email }}</a></div>
+    </div>
+</section>

@@ -1,10 +1,10 @@
 ---
 title: Single Part Manufacturing
 subtitle: determine the best stock for a given part
-layout: page
+layout: product
 url: singlepartmanufacturing
-img: SinglePartManufacturing.png
-thumbnail: SinglePartManufacturing.png
+img: /img/products/SinglePartManufacturing.png
+thumbnail: /img/products/SinglePartManufacturing.png
 alt: single part manufacturing image
 description: There are numerous stock sizes, find the one that best match your part for machining.
 

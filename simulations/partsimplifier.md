@@ -1,10 +1,10 @@
 ---
 title: Parts Simplifier
 subtitle: a tradeoff time and cost for added mass
-layout: page
+layout: product
 url: partsimplifier
-img: machsimp3Thumb.png
-thumbnail: machsimp3Thumb.png
+img: /img/products/machsimp3Thumb.png
+thumbnail: /img/products/machsimp3Thumb.png
 alt: part simplifier image
 description: a tradeoff analysis of how parts may be created with less time and cost at the expense of small amount of added mass
 

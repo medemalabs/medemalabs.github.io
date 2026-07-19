@@ -1,10 +1,10 @@
 ---
 title: Assembly Planner
 subtitle: plans the best way to assemble a collection of CAD parts
-layout: page
+layout: product
 url: assemblyplanner
-img: aap.png
-thumbnail: aap.png
+img: /img/products/aap.png
+thumbnail: /img/products/aap.png
 alt: assembly planner image
 description: automatically finds assembly plans; essentially creating the instructional manual for assembly automatically
 

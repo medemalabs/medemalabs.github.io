@@ -1,57 +1,63 @@
 # Site settings
 title: Medema Labs
-email: webmaster@medemalabs.com
+tagline: Manufacturing intelligence between CAD and CAM
+email: web@medemalabs.com
 description: "Medema Labs: Mechanical Design and Manufacturing Software Solutions"
 url: https://medemalabs.com
 
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: fed136
-  secondary: fec503
-  secondary-dark: 000
+# Navigation (header links)
+nav:
+  - label: Products
+    url: /#products
+  - label: How It Works
+    url: /#how-it-works
+  - label: About
+    url: /about/
+  - label: Help
+    url: /help/
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# Primary call to action (used in header + contact section)
+cta:
+  label: Contact Us
+  url: mailto:web@medemalabs.com
+
+# Social networks (icons available: linkedin, github, envelope, youtube)
 social:
   - title: linkedin
     url: https://www.linkedin.com/company/51694534
   - title: github
-    url: http://github.com/medemalabs
+    url: https://github.com/medemalabs
   - title: envelope
     url: mailto:web@medemalabs.com
 
-# Postal address (add as many lines as necessary)
+# Postal address
 address:
   - line: P.O.Box
   - line: Corvallis, OR 97330, USA
 
-# Team names, titles and social links
+# Team members (shown on About page)
 people:
-- name: Matt Campbell
-  pic: campbell
-  position: CEO, Founder
-  social:
-#    - title: twitter
-    #   url: #
-    # - title: facebook
-    #   url: #
-    - title: linkedin
-      url: https://www.linkedin.com/in/matt-campbell-a441ab3/
-
-- name: Brandon Massoni
-  pic: massoni
-  position: Chief Technology Officer, Founder
-  social:
-    - title: linkedin
-      url: https://www.linkedin.com/in/brandon-massoni/
-    # - title: twitter
-    #   url: #
-    # - title: facebook
-    #   url: #
-    # - title: stack-overflow
-    #   url: #
-
-
+  - name: Matt Campbell
+    pic: campbell
+    position: CEO, Founder
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/matt-campbell-a441ab3/
+  - name: Brandon Massoni
+    pic: massoni
+    position: Chief Technology Officer, Founder
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/brandon-massoni/
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - legacy
+  - "_1. start Jekyll server.lnk"
+  - "_2. local host test page.url"

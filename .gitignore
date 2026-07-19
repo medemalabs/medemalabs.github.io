@@ -1,3 +1,6 @@
 _site
 .sass-cache
 .jekyll-metadata
+.vs/
+_preview.html
+_preview.css

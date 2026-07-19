@@ -1,28 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-  {% include head.html %}
-
-
-<body id="page-top" class="index">
-
-    {% include header.html %}
-    <section>
-      <div class="container">
-          <div class="row">
-              <div class="col-lg-8 col-lg-offset-2">
-                  <div>
-                      <h2 class="section-heading">{{ page.title }}</h2>
-                      <hr class="star-primary">
-                      <img src="/img/products/{{ page.img }}" class="img-responsive img-centered" alt="{{ page.alt }}">
-                      <p >{{ content }}</p>
-                  </div>
-              </div>
-          </div>
-      </div>
-    </section>
-    {% include footer.html %}
-    {% include js.html %}
-
-</body>
-</html>
+---
+layout: page
+---
+{{ content }}

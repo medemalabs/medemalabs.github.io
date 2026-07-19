@@ -1,10 +1,10 @@
 ---
 title: Closed Die Forging
 subtitle: estimate forging volume in seconds to improve cost predictions
-layout: page
+layout: product
 url: closeddieforging
-img: forging.png
-thumbnail: forgingThumb.png
+img: /img/products/forging.png
+thumbnail: /img/products/forgingThumb.png
 alt: closed die forging image
 description: estimate forging volume in seconds to improve cost predictions
 ---

@@ -1,10 +1,10 @@
 ---
 title: Part Divider
 subtitle: optimizes ways to divide a single part into multiple for reducing time and cost of high-value parts
-layout: page
+layout: product
 url: partdivider
-img: partDivider.png
-thumbnail: partDivider.png
+img: /img/products/partDivider.png
+thumbnail: /img/products/partDivider.png
 alt: part divider image
 description: optimizes ways to divide a single part into multiple for reducing time and cost of high-value parts
 
