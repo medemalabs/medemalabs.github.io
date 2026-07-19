@@ -237,7 +237,7 @@ h1, h2, h3, h4 {
   position: absolute;
   left: 0; right: 0; bottom: 0;
   padding: 48px 28px 20px;
-  background: linear-gradient(180deg, transparent, rgba(8, 11, 16, 0.72));
+  background: linear-gradient(180deg, transparent, rgba(8, 11, 16, 0.99));
 }
 .slide-caption h3 { font-size: 20px; margin: 0 0 4px; color: #fff; }
 .slide-caption p { color: #c9d1de; font-size: 15px; margin: 0; }
