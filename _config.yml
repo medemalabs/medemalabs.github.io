@@ -53,11 +53,8 @@ people:
 # Build settings
 markdown: kramdown
 permalink: pretty
+plugins:
+  - jekyll-sitemap
 exclude:
-  - Gemfile
-  - Gemfile.lock
   - README.md
   - vendor
-  - legacy
-  - "_1. start Jekyll server.lnk"
-  - "_2. local host test page.url"
