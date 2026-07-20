@@ -1,0 +1,17 @@
+{%- comment -%}
+Normalizes a URL for use in an href. Usage: href="{% include href.html url=some.url %}"
+- Absolute URLs (with ://), anchors (#...), mailto: and tel: pass through unchanged
+- Site-relative paths (/...) go through relative_url
+- Bare domains (example.com) get https:// prepended
+{%- endcomment -%}
+{%- assign u = include.url -%}
+{%- assign c1 = u | slice: 0, 1 -%}
+{%- assign p7 = u | slice: 0, 7 -%}
+{%- assign p4 = u | slice: 0, 4 -%}
+{%- if u contains '://' or c1 == '#' or p7 == 'mailto:' or p4 == 'tel:' -%}
+{{- u -}}
+{%- elsif c1 == '/' -%}
+{{- u | relative_url -}}
+{%- else -%}
+https://{{ u }}
+{%- endif -%}

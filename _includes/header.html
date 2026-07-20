@@ -6,9 +6,9 @@
         <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.getElementById('nav-links').classList.toggle('open')">&#9776;</button>
         <ul class="nav-links" id="nav-links">
             {% for item in site.nav %}
-            <li><a href="{{ item.url }}">{{ item.label }}</a></li>
+            <li><a href="{% include href.html url=item.url %}">{{ item.label }}</a></li>
             {% endfor %}
-            <li><a class="btn btn-primary" href="{{ site.cta.url }}">{{ site.cta.label }}</a></li>
+            <li><a class="btn btn-primary" href="{% include href.html url=site.cta.url %}">{{ site.cta.label }}</a></li>
         </ul>
     </div>
 </nav>
