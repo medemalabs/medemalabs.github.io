@@ -9,7 +9,7 @@ layout: default
         <p class="lede">{{ page.hero.subheading }}</p>
         <div class="hero-actions">
             <a class="btn btn-primary" href="{{ page.hero.cta_url }}">{{ page.hero.cta_label }}</a>
-            <a class="btn btn-ghost" href="#products">Explore the products</a>
+            <a class="btn btn-ghost" href="#projects">Explore the projects</a>
         </div>
         {% if page.hero.slides %}
         <div class="hero-media carousel" id="hero-carousel" data-interval="{{ page.hero.slide_seconds | default: 3 }}">
@@ -88,8 +88,8 @@ layout: default
     </div>
 </section>
 
-<!-- Products -->
-<section id="products" class="alt">
+<!-- Projects -->
+<section id="projects" class="alt">
     <div class="container">
         <div class="section-head center">
             <span class="eyebrow">{{ page.projects_section.eyebrow }}</span>
