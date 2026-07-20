@@ -40,8 +40,8 @@ content:
             fields:
               - { name: title, label: Title, type: string }
               - { name: description, label: Description, type: text }
-      - name: products_section
-        label: Products section header
+      - name: projects_section
+        label: Projects section header
         type: object
         fields:
           - { name: eyebrow, label: Small label, type: string }
@@ -79,10 +79,10 @@ content:
       - { name: layout, label: Layout (do not change), type: string, hidden: true }
       - { name: title, label: Page title, type: string, hidden: true }
 
-  - name: products
-    label: Products (Simulation Modules)
+  - name: projects
+    label: Projects
     type: collection
-    path: simulations
+    path: projects
     view:
       fields: [title, subtitle]
     fields:
@@ -93,7 +93,7 @@ content:
       - { name: img, label: Main image (detail page), type: image }
       - { name: alt, label: Image alt text, type: string }
       - { name: body, label: Page content, type: rich-text }
-      - { name: layout, label: Layout (do not change), type: string, hidden: true, default: product }
+      - { name: layout, label: Layout (do not change), type: string, hidden: true, default: project }
       - { name: url, label: URL slug, type: string, hidden: true }
 
   - name: about

@@ -7,8 +7,8 @@ url: https://medemalabs.com
 
 # Navigation (header links)
 nav:
-  - label: Products
-    url: /#products
+  - label: Projects
+    url: /#projects
   - label: How It Works
     url: /#how-it-works
   - label: About
