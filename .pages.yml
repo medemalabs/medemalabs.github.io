@@ -26,6 +26,8 @@ content:
               - { name: image, label: Image, type: image }
               - { name: title, label: Title, type: string }
               - { name: text, label: Caption text, type: text }
+              - { name: url, label: Link URL (optional), type: string }
+
       - name: capabilities
         label: What We Do section
         type: object
